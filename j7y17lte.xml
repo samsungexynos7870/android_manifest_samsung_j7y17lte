@@ -2,15 +2,15 @@
 <manifest>
     <!--
     * target: j7y17lte
-    * rom: crDroid
+    * rom: Pixyos
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/samsungexynos7870" name="samsungexynos7870" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="crdroid" />
-    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="crdroid" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="samsungexynos7870" revision="aex" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="samsungexynos7870" revision="aex" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="samsungexynos7870" revision="aosp" />
@@ -20,6 +20,6 @@
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="samsungexynos7870" revision="common" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="lineage-17.1" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="samsungexynos7870" revision="aosp" />
 		
 </manifest>
